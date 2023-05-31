@@ -1,3 +1,4 @@
+#open chrome tabs
 import webbrowser
 import sys,os
 chrome_path = 'open -a /Applications/Google\ Chrome.app %s'
