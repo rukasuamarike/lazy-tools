@@ -9,6 +9,7 @@ def main():
     target=""                                   #target csv file
     col= "identifier"                           #column to extract data from
     output= "urls.txt"                          #output file name
+    
     if(len(sys.argv())==4):
         target=sys.argv[1]
         col= sys.argv[2]
